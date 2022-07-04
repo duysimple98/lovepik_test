@@ -7,5 +7,5 @@ services:
     envVars:
       - key: SECRET_KEY
         generateValue: true
-      - key: django-insecure-qgesypry@-2ztaid+h2n@pc*!h$#m6jpmjqf))a#zvn0i9t)iv
+      - key: WEB_CONCURRENCY
         value: 4
