@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: getlink
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn getlink.wsgi:application"
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: django-insecure-qgesypry@-2ztaid+h2n@pc*!h$#m6jpmjqf))a#zvn0i9t)iv
+        value: 4
